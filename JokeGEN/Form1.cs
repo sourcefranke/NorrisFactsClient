@@ -45,12 +45,15 @@ namespace JokeGEN
 
         private async void btnjoke_Click(object sender, EventArgs e)
         {
+          try
+            {
             var response = await client.GetAsync("http://api.icndb.com/jokes/random");
             var root = await response.Content.ReadAsAsync<Root>();
 
             textBoxJoke.Text = root.Value.Joke;
             labelST.Text = root.Type;
             labelJI.Text = root.Value.Id.ToString();
+
             if (root.Value.Categories.Count > 0)
             {
                 labelCTG.Text = string.Join(", ", root.Value.Categories);
@@ -59,8 +62,11 @@ namespace JokeGEN
             {
                 labelCTG.Text = "No Category";
             }
-
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Error trying to generate the joke: " + ex.Message);
+            }
         }
-
     }
 }
