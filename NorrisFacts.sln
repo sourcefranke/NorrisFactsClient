@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokeGEN", "JokeGEN\JokeGEN.csproj", "{FC318486-6663-405E-86AA-C86BF5959488}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorrisFacts", "NorrisFactsClient\NorrisFacts.csproj", "{FC318486-6663-405E-86AA-C86BF5959488}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

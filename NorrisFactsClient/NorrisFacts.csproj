@@ -100,12 +100,6 @@
     <Folder Include="request\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\d493apq-a426254b-dd9c-445d-9649-2cb9f26613df.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IconCN.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\chuck-norris.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

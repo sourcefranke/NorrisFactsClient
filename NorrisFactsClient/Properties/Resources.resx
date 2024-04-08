@@ -121,7 +121,4 @@
   <data name="chuck_norris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chuck-norris.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d493apq-a426254b-dd9c-445d-9649-2cb9f26613df" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d493apq-a426254b-dd9c-445d-9649-2cb9f26613df.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
